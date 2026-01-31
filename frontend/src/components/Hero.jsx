@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
+import img1 from '../assets/hero_bg_1.jpg';
+import img2 from '../assets/hero_bg_2.jpg';
 
-// YAHAN APNI ASSETS WALI IMAGES IMPORT KAREIN
-// Example: import img1 from '../assets/bg_1.jpg';
-// Filhal main placeholder URL use kr rha hu taake code chal jaye.
 
-const img1 = "https://images.unsplash.com/photo-1600596542815-27b88e31e971?q=80&w=2070&auto=format&fit=crop"; 
-const img2 = "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop";
 
 const Hero = () => {
   // Slider Data Array
