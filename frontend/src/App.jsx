@@ -11,6 +11,8 @@ import Buy from "./pages/Buy";
 import Rent from "./pages/Rent";
 import Propertie from "./pages/Propertie";
 import BlogPage from "./pages/BlogPage";
+import Contact from "./pages/Contact";
+import AboutPage from "./pages/AboutPage";
 
 const Home = () => {
   return (
@@ -36,6 +38,8 @@ const App = () => {
         <Route path="/rent" element={<Rent />} />
         <Route path="/propertie" element={<Propertie />} />
         <Route path="/blog" element={<BlogPage />} />
+          <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>

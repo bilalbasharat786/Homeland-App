@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 import blogHeroImg from "../assets/hero_bg_2.jpg";
 import blog1 from "../assets/house2.jpg";
 import blog3 from "../assets/house4.jpg";
@@ -52,8 +53,9 @@ const BlogPage = () => {
 
   return (
     <div className="w-full">
+      <Navbar />
       <div
-        className="relative h-[60vh] flex items-center justify-center bg-cover bg-center"
+        className="relative h-[80vh] flex items-center justify-center bg-cover bg-center"
         style={{ backgroundImage: `url(${blogHeroImg})` }}
       >
         <h1 className="text-white text-5xl md:text-6xl font-medium tracking-[0.2em] uppercase">
